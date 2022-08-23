@@ -60,7 +60,7 @@ int	main(int argc, char **argv, char **envp)
 	cmd = NULL;
 	old_line = NULL;
 	init_signals_parent();
-	rl_event_hook = &empty_event;
+	rl_done = 1;
 	while (1)
 	{
 		line = readline(GREEN "minishell" BLUE "$ " RESET);

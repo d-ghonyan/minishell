@@ -1,5 +1,10 @@
 {
 	"files.associations": {
-		"readline.h": "c"
+		"readline.h": "c",
+		"types.h": "c",
+		"minishell.h": "c",
+		"stdio.h": "c",
+		"wait.h": "c",
+		"history.h": "c"
 	}
 }

@@ -28,5 +28,5 @@ void	init_signals_child(void)
 
 void	sigint_p(int signum)
 {
-	rl_done = 1;
+	// rl_done = 1;
 }

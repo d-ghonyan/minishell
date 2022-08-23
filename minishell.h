@@ -10,11 +10,10 @@
 # include <dirent.h>
 # include <stdbool.h>
 # include <termios.h>
-# include <features.h>
 # include <sys/wait.h>
 # include <sys/types.h>
-# include <readline/history.h>
-# include <readline/readline.h>
+# include "/goinfre/dghonyan/include/readline/history.h"
+# include "/goinfre/dghonyan/include/readline/readline.h"
 
 # include "colors.h"
 # include "libft/libft.h"
